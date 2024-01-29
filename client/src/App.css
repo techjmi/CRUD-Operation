@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar{
+  color: #fff;
+}
+.form-section{
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 3;
+}
+.registration-form{
+  background-color: aquamarine;
+}
+.registration-image{
+  display:  flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+/* profile */
+.custom-profile:hover{
+  cursor: pointer;
+}
+.custom-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discount{
+  color: red;
+}
+
+/* profile Avtar */
+.avatar-circle {
+  width: 60px;
+  height: 60px;
+  background-color:black;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+.avatar-circle::after {
+  display: none !important;
+}
+.dropdown-menu {
+ 
+  margin: 0;
+}
+.card-service{
+  box-shadow: 20px 10px 4px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px solid black;
+    border-radius: 5px;
+    z-index: 10px;
+    background-color: black;
+}
+/* admin board css */
+
+ .main {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  max-width: none !important; 
+  gap: 0.5rem;
+} 
+
+
+ .left {
+  background-color: aqua;
+  display: flex;
+  flex: 0.3;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+.right {
+  background-color: blueviolet;
+  display: flex;
+  flex: 0.7;
+}  
+/* table style */
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+} */
+
+/* th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+} */
+
+th {
+  background-color: #f2f2f2;
+}
+.cardStyle::-webkit-scrollbar {
+  display: none;
+}
+.tableContainer::-webkit-scrollbar{
+  display: none;
+}
