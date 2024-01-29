@@ -7,8 +7,6 @@ A full-stack CRUD (Create, Read, Update, Delete) application using the MERN stac
 - Technologies Used
 - Getting Started
 - Installation
-- Usage
-- API Endpoint
 - Contributing
 ## Introduction
 This project is a demonstration of a CRUD application with admin functionalities. It uses the MERN stack, consisting of MongoDB for the database,
